@@ -1,0 +1,8 @@
+namespace LeverXCars20.core_db;
+
+context z20_db {
+   type myKeyType: String(60);
+   entity myEntity {
+       key myID: myKeyType;
+   };
+}
